@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Таймер мини-карты</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="icon" type="images/png" href="./images/favicon.png" sizes="32x32" />
+	<link rel="icon" type="images/png" href="./images/favicon2.png" sizes="64x64" />
+	<link rel="icon" type="images/png" href="./images/favicon3.png" sizes="128x128" />
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	<div class="bod">
+		<div class="logo"> 
+			<a href="https://vk.com/fun_league"  target="_blank"></a>
+		</div>
+		<div class="head">
+			<h1> Таймер мини-карты </h1>
+		</div>
+	<div class="right">
+		<p> <span id="Rt">5</span></p>
+		 <div>
+		 <div class="btn2a btn2aP2" onclick="two()" ><a href="#">2 секунды</a></div>
+		 <div class="btn2a btn2aP2" onclick="three()"><a href="#">3 секунды</a></div>
+		 <div class="btn2a btn2aP2" onclick="four()"><a href="#">4 секунды</a></div>
+		 <div class="btn2a btn2aP2" onclick="five()"><a href="#">5 секунд</a></div>
+		 <div class="btn2a btn2aP2" onclick="six()"><a href="#">6 секунд</a></div>
+		 <div class="btn2a btn2aP2" onclick="seven()"><a href="#">7 секунд</a></div>
+		</div>
+		<p> <span id="Rito"> Выбери ко-во секунд до сигнала</span></p>
+		
+		<audio id="player" src="notif.mp3"></audio>
+		
+		<div  id="start" class="btn2 btn2a btn2aP" onclick="timer()"><a href="#">СТАРТ</a></div>
+		<div id="stop" class="btn2 btn2a btn2aP hidden" onclick="Stop()"><a href="#">СТОП</a></div>
+
+	</div>
+		<div class="TY">
+			<a href="https://vk.com/fun_league" target="_blank">
+			<p>Создано гильдией "Cozy League of Legends" заглядывай к нам!</p></a>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>

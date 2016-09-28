@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body {
+	background: url("../images/bg.png"), url("../images/bg2.png");
+	background-color: #001518;
+	background-repeat: no-repeat, repeat;
+	background-position: top center;
+}
+h1 {
+    position: relative;
+	font-family: LolFonts;
+	font-size: 43px;
+    left: 52px;
+	color: #B18845;
+}
+.bod {
+	position: relative;
+	margin: 75px auto;
+	display: block;
+	height: 500px;
+	width: 970px;
+	/*outline: solid 1px #fff;*/
+	background-image: url(../images/txter.png);
+	background-repeat: repeat-x;
+	background-size:  150px 360px;
+	background-position:  100px 85px;
+}
+.logo {
+	position: absolute;
+    display: inline-block;
+	background: url(../all.svg) no-repeat;
+	background-size: 305px;
+	height: 181px;
+	width: 152px;
+/*	outline: solid 1px #fff;*/
+}
+.logo a {
+    display: block;
+	height: 179px;
+	width: 150px;
+	/*outline: solid 1px #fff;*/
+}
+.logo:hover {
+	background-image: url(../all.svg);
+	background-repeat: no-repeat;
+    background-position: -148px 0px;
+    display: inline-block;
+}
+.head {	
+	position: absolute;
+	left: 280px;
+	margin: 25px auto;
+	display: block;
+	height: 50px;
+	width: 500px;
+	/*outline: solid 1px #fff;*/
+}
+.btn2 {
+	position: relative;
+	top: 169px;
+	height: 46px;
+	width: 289px;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.btn2aP {
+    left: 27%;
+    top: 66px;
+}
+.btn2aP2{
+    width: 100px;
+    margin-top: 18px;
+    margin-right: 8px;
+}
+
+.btn2a {
+    display: inline-block;
+	background: linear-gradient(to top, #00191E, #002A30);
+	box-shadow: 0 0 5px rgba(3,203,227,0.9) inset;
+}
+
+.btn2a:hover {
+	background: linear-gradient(to top, #33585F, #112E35);
+	box-shadow: 0 0 5px rgba(3,203,227,0.9) inset;
+	font-family: LolFonts;
+	font-size: 17px;
+	color: #D5B68D;
+	text-align: center;
+	position: relative;
+	line-height: 45px;
+}
+.btn2a a {
+    position: relative;
+	display: block;
+	height: 100%;
+	font-family: LolFonts;
+	font-size: 17px;
+	color: #D5B68D;
+	text-align: center;
+	line-height: 45px;
+	text-decoration: none;
+}
+#Rito {
+    position: relative;
+    top: 40px;
+    left: -10px;
+    font-size: 25px;
+}
+#Rt {
+    font-size: 87px;
+}
+#btn {
+    height: 45px;
+    width: 72px;
+    margin-right: 10px;
+    background-color: #B18845;
+    outline: none;
+}
+
+.right {
+	position: absolute;
+	display: block;
+/*	outline: solid 1px #fff;*/
+	height: 99px;
+	width: 670px;
+	margin-left: 204px;
+    top: 21%;
+}
+.right p {
+	font-family: LolFonts;
+    text-align: center;
+	color: #B18845;
+}
+.TY a{
+/*	outline: solid 1px #fff;*/
+	position: relative;
+	cursor: pointer;
+	left: 225px;
+	top: 502px;
+	border: none;
+	display: block;
+	height: 26px;
+	width: 586px;
+	color: #B18845;
+	font-size: 20px;
+	font-family: LolFonts;
+}
